@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* background-color: #383838; */
+.active-nav {
+  text-decoration: underline;
+  text-decoration-color: #fee600;
+}
+#message-alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.img-w {
+  width: 100%;
+  object-fit: cover !important;
+}
+.navbar {
+  padding: 0 !important;
+  background-color: white;
+  height: 50px;
+}
+.scroll {
+  box-shadow: 1px 2px 32px -14px rgba(56, 56, 56, 0.9) !important;
+}
+.navbar a {
+  color: #383838;
+}
+.trapesium {
+  top: -25;
+  left: 0;
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  transform: skew(-30deg);
+  background: #383838;
+}
+.nav-container {
+  margin-left: -20px;
+  margin-right: 10px;
+  position: relative;
+}
+.navbar-brand {
+  top: -20;
+  left: 70;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute;
+}
+.navbar-nav {
+  margin-left: 250px;
+}
+.navbar-kanan {
+  margin-right: 60px !important;
+}
+.logo {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 40px !important;
+}
+.jumbotron {
+  position: relative;
+  background-image: url(../images/jumbotron2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+}
+.logo-jumbotron {
+  margin: 0 auto;
+  width: 100%;
+}
+.text-jumbotron {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.container-jumbotron {
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 40% !important;
+  margin-left: 400px !important;
+}
+.btn-jumbotron {
+  padding: 15px 20px;
+  color: white;
+  margin: 0 auto !important;
+  background-color: #383838;
+  border: 0;
+  outline: none;
+}
+
+.first-content {
+  background-color: #383838;
+  height: 400px;
+}
+.header-content {
+  color: #fee600;
+  font-weight: bolder;
+}
+.testi {
+  position: relative;
+  color: white;
+  font-size: 14px;
+}
+.testi-arena {
+  top: 0;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
+}
+.testi-foto {
+  filter: brightness(35%);
+  position: relative;
+}
+.second-content {
+  height: 500px;
+}
+.hp {
+  width: 100%;
+}
+.text-download {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.logo-googleplay {
+  margin-top: 25px;
+  object-fit: cover;
+  width: 30%;
+  height: 15%;
+  border: 5px solid #383838;
+}
+.side-image-regis {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.user-foto {
+  z-index: 1;
+  top: 60%;
+  left: 1%;
+  position: absolute;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.image {
+  padding-left: 200px;
+}
+form {
+  padding: 0;
+}
+.judul {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.btn-login {
+  border-radius: 20px !important;
+  border: 2px solid #383838 !important;
+  font-size: 14px !important;
+}
+.btn-submit {
+  font-weight: bolder;
+  background-color: #fee600 !important;
+}
+.rmv {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.content-header {
+  font-weight: bold;
+}
+
+/* footer */
+.footer-copyright {
+  background-color: #383838;
+  height: 300px;
+  color: white;
+}
+.hr-line {
+  border-top: 2px solid #ffffff;
+  opacity: 20%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.hr-line2 {
+  border-top: 2px solid #cccccc;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.footer-text {
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.copyright {
+  color: #ffffff;
+  opacity: 20%;
+}
+.socmed-icon {
+  color: #ffffff;
+  opacity: 20%;
+}
+/* info_team */
+.list-info-akun {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: white;
+  font-size: 0.8rem;
+  padding: 10px 0 !important;
+}
+.list-info-akun > a:link {
+  color: white;
+}
+
+.list-info-akun > a:visited {
+  color: white;
+}
+
+.list-info-akun > a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.list-info-akun > a:active {
+  color: white;
+}
+.article-header {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+.article-subheader {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* regis_team dan login_team */
+.list-regis {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: #383838;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 0 !important;
+  margin: 0 10px;
+}
+.list-regis > a:link {
+  color: #383838;
+}
+
+.list-regis > a:visited {
+  color: #383838;
+}
+
+.list-regis > a:hover {
+  text-decoration: none;
+  color: #383838;
+}
+
+.list-regis > a:active {
+  color: #383838;
+}
+.list-disabled {
+  text-decoration: underline;
+  pointer-events: none;
+  cursor: default;
+}
+.title {
+  font-weight: bold;
+}
+/* .modal-backdrop {
+  z-index: 100000 !important;
+}
+.modal {
+  z-index: 100001 !important;
+} */
+.content-subheader {
+  color: #383838;
+  font-size: 1rem;
+  opacity: 90%;
+}
+.btn-disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  box-shadow: none;
+}
+.filter {
+  background-color: #fee600 !important;
+}
+.white {
+  color: white;
+}
+.white:link {
+  color: white;
+}
+.white:visited {
+  color: white;
+}
+.white:active {
+  color: white;
+}
+.btn-jadwal {
+  font-size: 10px !important;
+}
